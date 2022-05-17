@@ -1,4 +1,5 @@
 const router = new require("express").Router()
+const AgendaDoDia = require("./AgendaDoDia")
 const axios = require("axios")
 
 const urlProfissionais = 'https://api-homolog.geracaopet.com.br/api/challenges/challenge1/employees'
